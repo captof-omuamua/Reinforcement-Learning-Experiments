@@ -20,3 +20,15 @@ Open one notebook in Colab or Jupyter, read its setup cells, set the input paths
 These notebooks are organised from an existing Colab archive. The table identifies project experiments, prototypes and learning exercises. Dataset files and model weights are supplied separately. GPU training and external-data workflows were not rerun during preparation.
 
 [Browse all AI, ML and automation topics](https://github.com/captof-omuamua/Colab-AI-ML-Projects).
+
+## Recovered semester exercises
+
+The [semester exercise showcase](semester-exercises/README.md) adds a Tkinter Double Q-learning grid world, historical learning curves, and a MountainCar script variant.
+
+| Material | Purpose |
+| --- | --- |
+| [Double Q-learning notebook](semester-exercises/double-q-learning.ipynb) | Distinct tabular grid-world exercise; requires a desktop display for Tkinter. |
+| [MountainCar script](semester-exercises/mountain_car_q.py) | Script form of the discretized MountainCar exercise represented by the existing notebook. |
+| [Archived learning curves](semester-exercises/README.md#preserved-results-and-examples) | Saved notebook outputs, not a fresh evaluation. |
+
+These additions consolidate the former `reinforcement-learning-exercises` repository into this collection. The generic Pendulum DDPG notebook does not establish that it implements the separate warehouse-navigation report.
